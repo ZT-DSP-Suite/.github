@@ -1,5 +1,10 @@
 # ZT-DSP Suite
 
+> This repository is named `.github` because GitHub requires that exact name for two
+> things: the organisation profile page you are reading, and the default community
+> health files that every repository here inherits unless it carries its own.
+> It is not a scratch repository, and renaming it would switch both off.
+
 Bilingual protocol specification and reference implementations.
 Code is licensed AGPL-3.0-or-later. The specification is licensed CC BY-SA 4.0.
 
