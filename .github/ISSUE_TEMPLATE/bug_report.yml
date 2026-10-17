@@ -1,0 +1,24 @@
+name: Bug report
+description: Something behaves differently from the specification
+labels: [bug]
+body:
+  - type: input
+    id: repo
+    attributes:
+      label: Affected repository and commit
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: Quote the specification section the behaviour departs from
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: How to reproduce
+      description: A command sequence, or a packet trace
+    validations:
+      required: true
