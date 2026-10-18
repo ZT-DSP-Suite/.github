@@ -8,18 +8,46 @@
 Bilingual protocol specification and reference implementations.
 Code is licensed AGPL-3.0-or-later. The specification is licensed CC BY-SA 4.0.
 
-## How to find what you need
+## Files
 
-| You want to | Go to |
+| File | What it is |
 |---|---|
-| Read the specification | `ZT-DSP-docs`, published |
-| Audit an implementation | `ZT-DSP-docs`, CONFORMANCE-GUIDE |
-| Build an implementation | `ZT-DSP-docs`, DEV-GUIDE |
-| Report a security problem | [SECURITY.md](SECURITY.md) |
-| Contribute | [CONTRIBUTING.md](CONTRIBUTING.md) |
-| Read the licence terms | `ZT-DSP-docs`, LICENSING.md |
-| Get the disclosure date | `ZT-DSP-docs`, PUBLICATION-RECORD.md |
+| [ZT-DSP-docs](https://github.com/ZT-DSP-Suite/ZT-DSP-docs) | the specification, published in both languages |
+| [cn/spec](https://github.com/ZT-DSP-Suite/ZT-DSP-docs/tree/main/cn/spec) · [en/spec](https://github.com/ZT-DSP-Suite/ZT-DSP-docs/tree/main/en/spec) | protocol text |
+| [CONFORMANCE-GUIDE](https://github.com/ZT-DSP-Suite/ZT-DSP-docs/blob/main/cn/CONFORMANCE-GUIDE.md) | how a conformance decision is reached |
+| [DEV-GUIDE](https://github.com/ZT-DSP-Suite/ZT-DSP-docs/blob/main/cn/DEV-GUIDE.md) | build and verification commands |
+| [LICENSING.md](https://github.com/ZT-DSP-Suite/ZT-DSP-docs/blob/main/LICENSING.md) | licence terms |
+| [PUBLICATION-RECORD.md](https://github.com/ZT-DSP-Suite/ZT-DSP-docs/blob/main/PUBLICATION-RECORD.md) | publication time, commit and content hashes |
+| [SECURITY.md](SECURITY.md) | how to report a vulnerability |
+| [CONTRIBUTING.md](CONTRIBUTING.md) | how to contribute |
+| [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) | conduct |
 
 ## Status
 
-The specification is published. Reference implementations stay private until the compliance review finishes.
+The specification is published. The reference implementations are not public.
+
+---
+
+# ZT-DSP 套件
+
+> 本仓名为 `.github`，因为 GitHub 对两件事要求这个字面名字：你在读的这个组织首页，以及各仓未自带时继承的公共健康文件。它不是临时仓；改名会让这两项同时失效。
+
+双语协议规范与参考实现。代码以 AGPL-3.0-or-later 授权，规范以 CC BY-SA 4.0 授权。
+
+## 文件
+
+| 文件 | 它是什么 |
+|---|---|
+| [ZT-DSP-docs](https://github.com/ZT-DSP-Suite/ZT-DSP-docs) | 规范，含中英两份 |
+| [cn/spec](https://github.com/ZT-DSP-Suite/ZT-DSP-docs/tree/main/cn/spec) · [en/spec](https://github.com/ZT-DSP-Suite/ZT-DSP-docs/tree/main/en/spec) | 协议正文 |
+| [符合性判定指南](https://github.com/ZT-DSP-Suite/ZT-DSP-docs/blob/main/cn/CONFORMANCE-GUIDE.md) | 一次实现是否合规怎么判 |
+| [开发与验证指南](https://github.com/ZT-DSP-Suite/ZT-DSP-docs/blob/main/cn/DEV-GUIDE.md) | 构建与验证命令 |
+| [LICENSING.md](https://github.com/ZT-DSP-Suite/ZT-DSP-docs/blob/main/LICENSING.md) | 许可条款 |
+| [PUBLICATION-RECORD.md](https://github.com/ZT-DSP-Suite/ZT-DSP-docs/blob/main/PUBLICATION-RECORD.md) | 公开时刻、提交号与内容哈希 |
+| [SECURITY.md](SECURITY.md) | 漏洞怎么报 |
+| [CONTRIBUTING.md](CONTRIBUTING.md) | 贡献怎么做 |
+| [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) | 行为准则 |
+
+## 状态
+
+规范已公开。参考实现尚未公开。
