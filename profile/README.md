@@ -10,32 +10,36 @@ Code is licensed AGPL-3.0-or-later. The specification is licensed CC BY-SA 4.0.
 
 ## Usage notice
 
-Production: this protocol must not be used. Study: reading, reproduction and discussion are permitted.
+Production: this protocol must not be used. Study: not recommended.
 
 Grounds:
 
-1. The specification is unfinished. Its timestamp semantics change in the next revision.
-2. No external security audit exists. No one has reviewed the cryptographic design.
-3. The server role has no merged reference implementation.
-4. Messages may vanish silently, with no error on either side.
-5. Continuous integration on these repositories does not stay green.
+1. This organization has two members. There is no spare capacity for support work.
+2. Windows cannot talk to Linux. All four same-host combinations deliver.
+3. Only real testing exposed this. The Python and Rust suites pass in the repository.
+4. The specification is unfinished. Its timestamp semantics change in the next revision.
+5. No external security audit exists. No one has reviewed the cryptographic design.
+6. The server role has no merged reference implementation.
+7. Continuous integration on these repositories does not stay green.
 
-Boundary for study: do not treat the published text as a build guide. The published text carries
-open defects; implementing it hits known traps.
+The specification is an archive, not a build guide. Its published text carries open defects;
+implementing it hits known traps.
 
 ## 使用立场
 
-生产环境：不得使用本协议。学习用途：可以阅读、可以复现、可以讨论。
+生产环境：不得使用本协议。学习用途：不推荐。
 
 依据：
 
-1. 规范未完成。时间戳语义在下一版改变。
-2. 没有外部安全审计。密码学设计无人复核。
-3. 服务端角色没有已合并的参考实现。
-4. 消息可静默消失，收发双方都不报错。
-5. 这些子仓的持续集成不保持通过。
+1. 本组织只有两名成员。没有余力处理更多事务，不承诺响应外部支持请求。
+2. Windows 与 Linux 无法通信。同机的四组组合全部送达。
+3. 该缺陷只有实测才能暴露。仓内 Python 与 Rust 用例全过。
+4. 规范未完成。时间戳语义在下一版改变。
+5. 没有外部安全审计。密码学设计无人复核。
+6. 服务端角色没有已合并的参考实现。
+7. 这些子仓的持续集成不保持通过。
 
-学习用途的边界：不得把公开文本当作施工图。公开文本带有 D1–D5 未修缺陷，照它实现会踩已知坑。
+规范只作归档，不作施工图。公开文本带有 D1–D5 未修缺陷，照它实现会踩已知坑。
 
 ---
 
