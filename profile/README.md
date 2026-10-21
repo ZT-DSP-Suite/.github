@@ -3,7 +3,7 @@
 > This repository is named `.github` because GitHub requires that exact name for two
 > things: the organisation profile page you are reading, and the default community
 > health files that every repository here inherits unless it carries its own.
-> It is not a scratch repository, and renaming it would switch both off.
+> It is not a scratch repository, and renaming it switches both off.
 
 Bilingual protocol specification and reference implementations.
 Code is licensed AGPL-3.0-or-later. The specification is licensed CC BY-SA 4.0.
@@ -15,7 +15,8 @@ Production: this protocol must not be used. Study: not recommended.
 Grounds:
 
 1. This organization has two members. There is no spare capacity for support work.
-2. Windows cannot talk to Linux. All four same-host combinations deliver.
+2. Cross-machine sessions delivered no messages; all four same-host combinations delivered.
+   The located cause is a clock difference beyond the timestamp window, plus the client closing the session when its input ends.
 3. Only real testing exposed this. The Python and Rust suites pass in the repository.
 4. The specification is unfinished. Its timestamp semantics change in the next revision.
 5. No external security audit exists. No one has reviewed the cryptographic design.
@@ -32,7 +33,7 @@ implementing it hits known traps.
 依据：
 
 1. 本组织只有两名成员。没有余力处理更多事务，不承诺响应外部支持请求。
-2. Windows 与 Linux 无法通信。同机的四组组合全部送达。
+2. 跨机两轮均未送达；同机四组组合全部送达。已定位的原因是两端时钟差超过时间戳窗口，叠加客户端在输入结束后关闭会话。
 3. 该缺陷只有实测才能暴露。仓内 Python 与 Rust 用例全过。
 4. 规范未完成。时间戳语义在下一版改变。
 5. 没有外部安全审计。密码学设计无人复核。
