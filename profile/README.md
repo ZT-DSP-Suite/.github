@@ -24,7 +24,7 @@ Code is licensed AGPL-3.0-or-later. The specification is licensed CC BY-SA 4.0.
 
 ## Status
 
-The specification is published. The reference implementations are not public.
+The specification is published. No release exists. Repository code is for testing and does not constitute a release.
 
 ## Update commitment
 
@@ -72,7 +72,7 @@ The window is a convention, not a service promise.
 
 ## 状态
 
-规范已公开。参考实现尚未公开。
+规范已公开。无发行版。仓内代码仅作测试，不构成发布。
 
 ## 持续更新承诺
 
