@@ -20,7 +20,7 @@ Grounds:
 3. Only real testing exposed this. The Python and Rust suites pass in the repository.
 4. The specification is unfinished. Its timestamp semantics change in the next revision.
 5. No external security audit exists. No one has reviewed the cryptographic design.
-6. The server role has no merged reference implementation.
+6. The reference implementations exist only in the repositories, and nothing is released.
 7. Continuous integration on these repositories does not stay green.
 
 The specification is an archive, not a build guide. Its published text carries open defects;
@@ -37,7 +37,7 @@ implementing it hits known traps.
 3. 该缺陷只有实测才能暴露。仓内 Python 与 Rust 用例全过。
 4. 规范未完成。时间戳语义在下一版改变。
 5. 没有外部安全审计。密码学设计无人复核。
-6. 服务端角色没有已合并的参考实现。
+6. 参考实现只在仓内，且没有任何发行版。
 7. 这些子仓的持续集成不保持通过。
 
 规范只作归档，不作施工图。公开文本带有 D1–D5 未修缺陷，照它实现会踩已知坑。
