@@ -25,6 +25,12 @@ Code is licensed AGPL-3.0-or-later. The specification is licensed CC BY-SA 4.0.
 ## Status
 
 The specification is published. No release exists. Repository code is for testing and does not constitute a release.
+No browser or messaging software currently supports this protocol.
+No public deployment exists.
+The client and server roles have reference implementations, and nothing is
+released.
+The initial developers, SCAL-ROAM and NullMaverick, do not use it for
+communication either.
 
 ## Update commitment
 
@@ -73,6 +79,10 @@ The window is a convention, not a service promise.
 ## 状态
 
 规范已公开。无发行版。仓内代码仅作测试，不构成发布。
+目前没有任何浏览器或通讯软件支持本协议。
+没有任何公开部署。
+客户端与服务端角色都有参考实现，且没有任何发行版。
+初始开发者 SCAL-ROAM 与 NullMaverick 也没有在用本协议通信。
 
 ## 持续更新承诺
 
